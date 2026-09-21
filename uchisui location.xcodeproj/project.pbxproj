@@ -14,6 +14,9 @@
 		2CE3425B306115C0000E444A /* uchisui_locationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3425A306115C0000E444A /* uchisui_locationTests.swift */; };
 		2CE34265306115C0000E444A /* uchisui_locationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34264306115C0000E444A /* uchisui_locationUITests.swift */; };
 		2CE34267306115C0000E444A /* uchisui_locationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE34266306115C0000E444A /* uchisui_locationUITestsLaunchTests.swift */; };
+		2CE3427430611927000E444A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3427330611927000E444A /* Place.swift */; };
+		2CE342763061197A000E444A /* AddPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE342753061197A000E444A /* AddPlace.swift */; };
+		2CE3427830612FEA000E444A /* PlaceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3427730612FE6000E444A /* PlaceMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2CE34260306115C0000E444A /* uchisui locationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uchisui locationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE34264306115C0000E444A /* uchisui_locationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uchisui_locationUITests.swift; sourceTree = "<group>"; };
 		2CE34266306115C0000E444A /* uchisui_locationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uchisui_locationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CE3427330611927000E444A /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		2CE342753061197A000E444A /* AddPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlace.swift; sourceTree = "<group>"; };
+		2CE3427730612FE6000E444A /* PlaceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		2CE3423D306115AA000E444A = {
 			isa = PBXGroup;
 			children = (
+				2CE3427730612FE6000E444A /* PlaceMapView.swift */,
 				2CE34248306115AA000E444A /* uchisui location */,
 				2CE34259306115C0000E444A /* uchisui locationTests */,
 				2CE34263306115C0000E444A /* uchisui locationUITests */,
@@ -95,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				2CE34249306115AB000E444A /* uchisui_locationApp.swift */,
+				2CE342753061197A000E444A /* AddPlace.swift */,
+				2CE3427330611927000E444A /* Place.swift */,
 				2CE3424B306115AB000E444A /* ContentView.swift */,
 				2CE3424D306115BD000E444A /* Assets.xcassets */,
 				2CE3424F306115BE000E444A /* Preview Content */,
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE3427430611927000E444A /* Place.swift in Sources */,
 				2CE3424C306115AB000E444A /* ContentView.swift in Sources */,
 				2CE3424A306115AB000E444A /* uchisui_locationApp.swift in Sources */,
+				2CE3427830612FEA000E444A /* PlaceMapView.swift in Sources */,
+				2CE342763061197A000E444A /* AddPlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
